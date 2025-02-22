@@ -18,7 +18,7 @@
 #' }
 #'
 #' @details
-#' This data frame contains the full set of 4 data records from the FishStat
+#' This data frame contains the full set of 5 data records from the FishStat
 #' \emph{Production Source} data table. Column names have been simplified
 #' to facilitate quick exploration and plotting in R.
 #'

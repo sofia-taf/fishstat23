@@ -31,7 +31,7 @@ Capture production quantity by species, area, and country for the years
 1950-2021, compiled and published by FAO (2023).
 }
 \details{
-This data frame contains the full set of 1,028,720 data records from the
+This data frame contains the full set of 1,030,435 data records from the
 FishStat \emph{Capture Quantity} data table. Column names have been
 simplified to facilitate quick exploration and plotting in R.
 }

@@ -25,7 +25,7 @@ source
 Sources of aquaculture and capture production, defined by FAO (2023).
 }
 \details{
-This data frame contains the full set of 4 data records from the FishStat
+This data frame contains the full set of 5 data records from the FishStat
 \emph{Production Source} data table. Column names have been simplified
 to facilitate quick exploration and plotting in R.
 }
