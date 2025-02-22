@@ -4,7 +4,7 @@
 #'
 #' @title Measures
 #'
-#' @description Units of measurement, defined by FAO (2024).
+#' @description Units of measurement, defined by FAO (2023).
 #'
 #' @usage
 #' measure
@@ -27,7 +27,7 @@
 #' quick exploration and plotting in R.
 #'
 #' @source
-#' FAO (2024).
+#' FAO (2023).
 #' Global Production.
 #' Fisheries and Aquaculture Division. Rome.
 #'
@@ -41,7 +41,7 @@
 #' \code{\link{measure}}, \code{\link{source}}, \code{\link{species}}, and
 #' \code{\link{status}} are lookup tables.
 #'
-#' \code{\link{fishstat-package}} gives an overview of the package.
+#' \code{\link{fishstat23-package}} gives an overview of the package.
 #'
 #' @examples
 #' head(measure, 3)
@@ -55,7 +55,7 @@
 #' # When number of individuals is used, it is for mammals and reptiles
 #' x <- merge(capture[capture$measure=="Q_no_1",], species)
 #' aggregate(value~isscaap, x, sum)
-#' aggregate(value~isscaap, x, sum, subset=year==2022)
+#' aggregate(value~isscaap, x, sum, subset=year==2021)
 #'
 #' # Examine one measure
 #' print.simple.list(measure[measure$measure=="Q_tlw",])

@@ -6,7 +6,7 @@
 #'
 #' @description
 #' Aquaculture production quantity by species, area, country, and aquatic
-#' environment for the years 1950-2022, compiled and published by FAO (2024).
+#' environment for the years 1950-2021, compiled and published by FAO (2023).
 #'
 #' @usage
 #' aquaculture
@@ -25,12 +25,12 @@
 #' }
 #'
 #' @details
-#' This data frame contains the full set of 102,342 data records from the
+#' This data frame contains the full set of 98,767 data records from the
 #' FishStat \emph{Aquaculture Quantity} data table. Column names have been
 #' simplified to facilitate quick exploration and plotting in R.
 #'
 #' @source
-#' FAO (2024).
+#' FAO (2023).
 #' Global Aquaculture Production.
 #' Fisheries and Aquaculture Division. Rome.
 #'
@@ -44,7 +44,7 @@
 #' \code{\link{measure}}, \code{\link{source}}, \code{\link{species}}, and
 #' \code{\link{status}} are lookup tables.
 #'
-#' \code{\link{fishstat-package}} gives an overview of the package.
+#' \code{\link{fishstat23-package}} gives an overview of the package.
 #'
 #' @examples
 #' head(aquaculture)
@@ -52,8 +52,8 @@
 #' # Add species columns
 #' aqua <- merge(aquaculture, species)
 #'
-#' # Top 10 aquaculture species in 2022, production in tonnes
-#' x <- aggregate(value~species_name, aqua, sum, subset=year==2022)
+#' # Top 10 aquaculture species in 2021, production in tonnes
+#' x <- aggregate(value~species_name, aqua, sum, subset=year==2021)
 #' x$value <- round(x$value)
 #' head(x[order(-x$value),], 10)
 #'

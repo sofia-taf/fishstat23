@@ -6,7 +6,7 @@
 #'
 #' @description
 #' Aquaculture and capture production quantity by species, area, and country for
-#' the years 1950-2022, compiled and published by FAO (2024).
+#' the years 1950-2021, compiled and published by FAO (2023).
 #'
 #' @usage
 #' production
@@ -30,7 +30,7 @@
 #' simplified to facilitate quick exploration and plotting in R.
 #'
 #' @source
-#' FAO (2024).
+#' FAO (2023).
 #' Global Production.
 #' Fisheries and Aquaculture Division. Rome.
 #'
@@ -44,7 +44,7 @@
 #' \code{\link{measure}}, \code{\link{source}}, \code{\link{species}}, and
 #' \code{\link{status}} are lookup tables.
 #'
-#' \code{\link{fishstat-package}} gives an overview of the package.
+#' \code{\link{fishstat23-package}} gives an overview of the package.
 #'
 #' @examples
 #' head(production)

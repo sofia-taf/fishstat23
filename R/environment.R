@@ -4,7 +4,7 @@
 #'
 #' @title Environments
 #'
-#' @description Aquatic environments for aquaculture, defined by FAO (2024).
+#' @description Aquatic environments for aquaculture, defined by FAO (2023).
 #'
 #' @usage
 #' environment
@@ -22,7 +22,7 @@
 #' to facilitate quick exploration and plotting in R.
 #'
 #' @source
-#' FAO (2024).
+#' FAO (2023).
 #' Aquaculture Production.
 #' Fisheries and Aquaculture Division. Rome.
 #'
@@ -36,14 +36,14 @@
 #' \code{\link{measure}}, \code{\link{source}}, \code{\link{species}}, and
 #' \code{\link{status}} are lookup tables.
 #'
-#' \code{\link{fishstat-package}} gives an overview of the package.
+#' \code{\link{fishstat23-package}} gives an overview of the package.
 #'
 #' @examples
 #' environment
 #'
-#' # Aquaculture production by environment in 2022, in million tonnes
+#' # Aquaculture production by environment in 2021, in million tonnes
 #' x <- merge(aquaculture, environment)
-#' x <- aggregate(value~environment_name, x, sum, subset=year==2022)
+#' x <- aggregate(value~environment_name, x, sum, subset=year==2021)
 #' transform(x, value=round(value/1e6))
 
 NA

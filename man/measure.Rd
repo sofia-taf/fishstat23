@@ -17,7 +17,7 @@ Data frame containing two columns:
 }
 }
 \source{
-FAO (2024).
+FAO (2023).
 Global Production.
 Fisheries and Aquaculture Division. Rome.
 
@@ -27,7 +27,7 @@ Fisheries and Aquaculture Division. Rome.
 measure
 }
 \description{
-Units of measurement, defined by FAO (2024).
+Units of measurement, defined by FAO (2023).
 }
 \details{
 This data frame contains the full set of 11 data records from the FishStat
@@ -46,7 +46,7 @@ table(capture$measure)
 # When number of individuals is used, it is for mammals and reptiles
 x <- merge(capture[capture$measure=="Q_no_1",], species)
 aggregate(value~isscaap, x, sum)
-aggregate(value~isscaap, x, sum, subset=year==2022)
+aggregate(value~isscaap, x, sum, subset=year==2021)
 
 # Examine one measure
 print.simple.list(measure[measure$measure=="Q_tlw",])
@@ -59,5 +59,5 @@ available in a combined \code{\link{production}} format.
 \code{\link{measure}}, \code{\link{source}}, \code{\link{species}}, and
 \code{\link{status}} are lookup tables.
 
-\code{\link{fishstat-package}} gives an overview of the package.
+\code{\link{fishstat23-package}} gives an overview of the package.
 }

@@ -1,6 +1,6 @@
-#' @name fishstat-package
+#' @name fishstat23-package
 #'
-#' @aliases fishstat
+#' @aliases fishstat23
 #'
 #' @title Global Fishery and Aquaculture Statistics
 #'

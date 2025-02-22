@@ -17,7 +17,7 @@ Data frame containing five columns:
 }
 }
 \source{
-FAO (2024).
+FAO (2023).
 Global Production.
 Fisheries and Aquaculture Division. Rome.
 
@@ -27,7 +27,7 @@ Fisheries and Aquaculture Division. Rome.
 area
 }
 \description{
-Major inland and marine fishing areas, defined by FAO (2024).
+Major inland and marine fishing areas, defined by FAO (2023).
 }
 \details{
 This data frame contains the full set of 29 data records from the FishStat
@@ -66,5 +66,5 @@ available in a combined \code{\link{production}} format.
 \code{\link{measure}}, \code{\link{source}}, \code{\link{species}}, and
 \code{\link{status}} are lookup tables.
 
-\code{\link{fishstat-package}} gives an overview of the package.
+\code{\link{fishstat23-package}} gives an overview of the package.
 }

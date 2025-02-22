@@ -4,7 +4,7 @@
 #'
 #' @title Species
 #'
-#' @description Aquatic species and taxonomic groups, defined by FAO (2024).
+#' @description Aquatic species and taxonomic groups, defined by FAO (2023).
 #'
 #' @usage
 #' species
@@ -30,7 +30,7 @@
 #' to facilitate quick exploration and plotting in R.
 #'
 #' @source
-#' FAO (2024).
+#' FAO (2023).
 #' Global Production.
 #' Fisheries and Aquaculture Division. Rome.
 #'
@@ -44,7 +44,7 @@
 #' \code{\link{measure}}, \code{\link{source}}, \code{\link{species}}, and
 #' \code{\link{status}} are lookup tables.
 #'
-#' \code{\link{fishstat-package}} gives an overview of the package.
+#' \code{\link{fishstat23-package}} gives an overview of the package.
 #'
 #' @examples
 #' head(species, 3)
